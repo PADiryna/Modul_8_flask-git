@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<input action="" method="POST">
+    <label>Send a message</label>
+    <input name="message"></input>
+    <input type="submit"/>
+</form>
+<a href="{{url_for('templates', filename='greeting.html')}}">page1</a>/>
+{% endblock %}
