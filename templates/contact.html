@@ -1,9 +1,11 @@
 {% extends "base.html" %}
+
 {% block content %}
+{{super()}}
 <h2><i>Contact</i></h2>
 <ui>
     <li><i>e-mail: </i> irini-84@ukr.net </li>
     <li><i>telefon: </i> 538947595 </li>
 </ui>
-<a href="{{url_for('templates', filename='greeting.html')}}">page1</a>/>
+
 {% endblock %}
