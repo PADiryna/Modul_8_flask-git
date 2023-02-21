@@ -3,10 +3,10 @@
 {% block content %}
 {{ super() }}
 <form action="/feedback" method="POST">
-<p><label> Name: </label><input type="text" name="username" value="" requied/>
-<p><label> Email: </label><input type="text" name="e-mail" value="" requied/>
-<p><label> Send a message: </label>
-<p><textarea> name="message" rows=6 cols=40></textarea> 
-<p><input type="submit" value="send"/>
+    <p><label> Name: </label><input type="text" name="username" value="" requied />
+    <p><label> Email: </label><input type="text" name="e-mail" value="" requied />
+    <p><label> Send a message: </label>
+    <p><textarea name="message" rows="6" cols="40" placeholder="Input a message:"></textarea></p>
+    <p><input type="submit" value="send" /></p> 
 </form>
 {% endblock %}
